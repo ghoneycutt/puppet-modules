@@ -110,7 +110,7 @@ mod "rpcbind",
 
 mod "rsyslog",
   :git => "git://github.com/ghoneycutt/puppet-module-rsyslog.git",
-  :ref => "v0.3.0"
+  :ref => "v0.4.0"
 
 mod "selinux",
   :git => "git://github.com/ghoneycutt/puppet-module-selinux.git"
@@ -130,7 +130,8 @@ mod "utils",
   :git => "git://github.com/ghoneycutt/puppet-module-utils.git"
 
 mod "vim",
-  :git => "git://github.com/ghoneycutt/puppet-module-vim.git"
+  :git => "git://github.com/ghoneycutt/puppet-module-vim.git",
+  :ref => "v2.1.0"
 
 mod "virtual",
   :git => "git://github.com/ghoneycutt/puppet-module-virtual.git"
