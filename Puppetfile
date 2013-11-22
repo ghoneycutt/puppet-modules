@@ -58,7 +58,8 @@ mod "network",
   :ref => "gh_huge_refactor"
 
 mod "nfs",
-  :git => "git://github.com/ghoneycutt/puppet-module-nfs.git"
+  :git => "git://github.com/ghoneycutt/puppet-module-nfs.git",
+  :ref => "v1.2.0"
 
 mod "nisclient",
   :git => "git://github.com/Ericsson/puppet-module-nisclient.git"
