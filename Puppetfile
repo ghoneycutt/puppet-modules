@@ -127,6 +127,10 @@ mod "stdlib",
 mod "sysklogd",
   :git => "git://github.com/ghoneycutt/puppet-module-sysklogd.git"
 
+mod 'types',
+  :git => 'git@github.com:ghoneycutt/puppet-module-types.git',
+  :ref => 'v1.0.0'
+
 mod "utils",
   :git => "git://github.com/ghoneycutt/puppet-module-utils.git"
 
