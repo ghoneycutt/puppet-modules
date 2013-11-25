@@ -40,7 +40,8 @@ mod "inifile",
   :ref => "0.9.0"
 
 mod "inittab",
-  :git => "git://github.com/ghoneycutt/puppet-module-inittab.git"
+  :git => "git://github.com/ghoneycutt/puppet-module-inittab.git",
+  :ref => "v1.0.0"
 
 mod "localization",
   :git => "git://github.com/ghoneycutt/puppet-module-localization.git",
