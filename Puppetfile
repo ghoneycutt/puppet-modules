@@ -40,7 +40,8 @@ mod "inifile",
   :ref => "0.9.0"
 
 mod "inittab",
-  :git => "git://github.com/ghoneycutt/puppet-module-inittab.git"
+  :git => "git://github.com/ghoneycutt/puppet-module-inittab.git",
+  :ref => "v1.0.0"
 
 mod "localization",
   :git => "git://github.com/ghoneycutt/puppet-module-localization.git",
@@ -59,7 +60,7 @@ mod "network",
 
 mod "nfs",
   :git => "git://github.com/ghoneycutt/puppet-module-nfs.git",
-  :ref => "v1.2.0"
+  :ref => "v1.3.0"
 
 mod "nisclient",
   :git => "git://github.com/Ericsson/puppet-module-nisclient.git"
@@ -107,7 +108,7 @@ mod "redhat",
 
 mod "rpcbind",
   :git => "git://github.com/ghoneycutt/puppet-module-rpcbind.git",
-  :ref => "v1.0.0"
+  :ref => "v1.1.0"
 
 mod "rsyslog",
   :git => "git://github.com/ghoneycutt/puppet-module-rsyslog.git",
@@ -127,6 +128,10 @@ mod "stdlib",
 mod "sysklogd",
   :git => "git://github.com/ghoneycutt/puppet-module-sysklogd.git"
 
+mod 'types',
+  :git => 'git@github.com:ghoneycutt/puppet-module-types.git',
+  :ref => 'v1.0.0'
+
 mod "utils",
   :git => "git://github.com/ghoneycutt/puppet-module-utils.git"
 
@@ -143,3 +148,7 @@ mod "vmware",
 mod "wget",
   :git => "git://github.com/ghoneycutt/puppet-wget.git",
   :ref => "style_fixes"
+
+mod "xinetd",
+  :git => "git://github.com/puppetlabs/puppetlabs-xinetd.git",
+  :ref => "1.2.0"
