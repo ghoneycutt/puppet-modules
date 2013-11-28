@@ -108,7 +108,7 @@ mod "redhat",
 
 mod "rpcbind",
   :git => "git://github.com/ghoneycutt/puppet-module-rpcbind.git",
-  :ref => "v1.0.0"
+  :ref => "v1.1.0"
 
 mod "rsyslog",
   :git => "git://github.com/ghoneycutt/puppet-module-rsyslog.git",
@@ -148,3 +148,7 @@ mod "vmware",
 mod "wget",
   :git => "git://github.com/ghoneycutt/puppet-wget.git",
   :ref => "style_fixes"
+
+mod "xinetd",
+  :git => "git://github.com/puppetlabs/puppetlabs-xinetd.git",
+  :ref => "1.2.0"
