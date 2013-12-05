@@ -125,6 +125,9 @@ mod "stdlib",
   :git => "git://github.com/puppetlabs/puppetlabs-stdlib.git",
   :ref => "3.2.0"
 
+mod 'stdlibfeatures',
+  :git => 'git://github.com/ghoneycutt/puppet-module-stdlibfeatures.git'
+
 mod "sysklogd",
   :git => "git://github.com/ghoneycutt/puppet-module-sysklogd.git"
 
