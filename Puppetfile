@@ -70,9 +70,9 @@ mod 'nsswitch',
   :git => 'git://github.com/ghoneycutt/puppet-module-nsswitch.git',
   :ref => 'v1.0.0'
 
-mod "ntp",
-  :git => "git://github.com/ghoneycutt/puppet-module-ntp.git",
-  :ref => "v2.1.0"
+mod 'ntp',
+  :git => 'git://github.com/ghoneycutt/puppet-module-ntp.git',
+  :ref => 'v2.1.2'
 
 mod "nx",
   :git => "git://github.com/Ericsson/puppet-module-nx.git",
