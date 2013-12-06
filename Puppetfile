@@ -91,9 +91,9 @@ mod "postgresql",
   :git => "git://github.com/ghoneycutt/puppet-postgresql.git",
   :ref => "2.1.1/gh_fork"
 
-mod "puppet",
-  :git => "git://github.com/ghoneycutt/puppet-module-puppet.git",
-  :ref => "v2.1.3"
+mod 'puppet',
+  :git => 'git://github.com/ghoneycutt/puppet-module-puppet.git',
+  :ref => 'v2.7.0'
 
 mod "puppetdb",
   :git => "git://github.com/Ericsson/puppetlabs-puppetdb.git",
