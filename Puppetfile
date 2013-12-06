@@ -62,8 +62,9 @@ mod "nfs",
   :git => "git://github.com/ghoneycutt/puppet-module-nfs.git",
   :ref => "v1.3.0"
 
-mod "nisclient",
-  :git => "git://github.com/Ericsson/puppet-module-nisclient.git"
+mod 'nisclient',
+  :git => 'git://github.com/Ericsson/puppet-module-nisclient.git',
+  :ref => 'v0.2.0'
 
 mod "nsswitch",
   :git => "git://github.com/ghoneycutt/puppet-module-nsswitch.git"
