@@ -50,9 +50,9 @@ mod "localization",
 mod "motd",
   :git => "git://github.com/Ericsson/puppet-module-motd.git"
 
-mod "mysql",
-  :git => "git://github.com/ghoneycutt/puppetlabs-mysql.git",
-  :ref => "set_max_allowed_packet"
+mod 'mysql',
+  :git => 'git://github.com/puppetlabs/puppetlabs-mysql.git',
+  :ref => '2.0.1-rc1'
 
 mod "network",
   :git => "git://github.com/ghoneycutt/puppet-network.git",
