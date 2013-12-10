@@ -137,8 +137,9 @@ mod 'types',
   :git => 'git@github.com:ghoneycutt/puppet-module-types.git',
   :ref => 'v1.0.0'
 
-mod "utils",
-  :git => "git://github.com/ghoneycutt/puppet-module-utils.git"
+mod 'utils',
+  :git => 'git://github.com/ghoneycutt/puppet-module-utils.git',
+  :ref => 'v2.1.0'
 
 mod 'vim',
   :git => 'git://github.com/ghoneycutt/puppet-module-vim.git',
