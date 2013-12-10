@@ -103,7 +103,7 @@ mod "puppetdb",
 
 mod 'rancid',
   :git => 'git://github.com/eoly/puppet-rancid.git',
-  :ref => 'v0.1.1'
+  :ref => '0.1.1'
 
 mod "redhat",
   :git => "git://github.com/ghoneycutt/puppet-module-redhat.git"
