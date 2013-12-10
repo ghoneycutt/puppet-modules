@@ -101,9 +101,9 @@ mod "puppetdb",
   :git => "git://github.com/Ericsson/puppetlabs-puppetdb.git",
   :ref => "1.6.0"
 
-mod "rancid",
-  :git => "git://github.com/ghoneycutt/puppet-rancid.git",
-  :ref => "gh_huge_refactor_with_el6_support"
+mod 'rancid',
+  :git => 'git://github.com/eoly/puppet-rancid.git',
+  :ref => 'v0.1.1'
 
 mod "redhat",
   :git => "git://github.com/ghoneycutt/puppet-module-redhat.git"
