@@ -29,8 +29,9 @@ mod "firewall",
 mod "hp",
   :git => "git://github.com/ghoneycutt/puppet-module-hp.git"
 
-mod "hosts",
-  :git => "git://github.com/ghoneycutt/puppet-module-hosts.git"
+mod 'hosts',
+  :git => 'git://github.com/ghoneycutt/puppet-module-hosts.git',
+  :ref => 'v2.0.0'
 
 mod "htpasswd",
   :git => "git://github.com/ghoneycutt/puppet-htpasswd.git"
