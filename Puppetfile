@@ -67,6 +67,10 @@ mod 'nisclient',
   :git => 'git://github.com/Ericsson/puppet-module-nisclient.git',
   :ref => 'v0.2.0'
 
+mod 'nrpe',
+  :git => 'git://github.com/ghoneycutt/puppet-module-nrpe.git',
+  :ref => 'v0.5.0'
+
 mod 'nsswitch',
   :git => 'git://github.com/ghoneycutt/puppet-module-nsswitch.git',
   :ref => 'v1.0.0'
