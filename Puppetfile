@@ -119,7 +119,7 @@ mod "rpcbind",
 
 mod "rsyslog",
   :git => "git://github.com/ghoneycutt/puppet-module-rsyslog.git",
-  :ref => "v0.4.0"
+  :ref => "v0.5.0"
 
 mod "selinux",
   :git => "git://github.com/ghoneycutt/puppet-module-selinux.git"
