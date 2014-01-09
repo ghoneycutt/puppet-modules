@@ -156,9 +156,9 @@ mod "virtual",
 mod "vmware",
   :git => "git://github.com/ghoneycutt/puppet-module-vmware.git"
 
-mod "wget",
-  :git => "git://github.com/ghoneycutt/puppet-wget.git",
-  :ref => "style_fixes"
+mod 'wget',
+  :git => 'git://github.com/ghoneycutt/puppet-wget.git',
+  :ref => 'fork'
 
 mod "xinetd",
   :git => "git://github.com/puppetlabs/puppetlabs-xinetd.git",
