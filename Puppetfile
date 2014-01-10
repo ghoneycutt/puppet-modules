@@ -6,9 +6,9 @@ mod "apt",
   :git => "git://github.com/puppetlabs/puppetlabs-apt.git",
   :ref => "1.1.0"
 
-mod "common",
-  :git => "git://github.com/ghoneycutt/puppet-module-common.git",
-  :ref => "v1.0.2"
+mod 'common',
+  :git => 'git://github.com/ghoneycutt/puppet-module-common.git',
+  :ref => 'v1.0.3'
 
 mod "concat",
   :git => "git://github.com/Ericsson/puppetlabs-concat.git",
