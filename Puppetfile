@@ -148,7 +148,7 @@ mod 'utils',
 
 mod 'vim',
   :git => 'git://github.com/ghoneycutt/puppet-module-vim.git',
-  :ref => 'v2.2.0'
+  :ref => 'v2.3.0'
 
 mod "virtual",
   :git => "git://github.com/ghoneycutt/puppet-module-virtual.git"
