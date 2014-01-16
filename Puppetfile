@@ -113,9 +113,9 @@ mod 'rancid',
 mod "redhat",
   :git => "git://github.com/ghoneycutt/puppet-module-redhat.git"
 
-mod "rpcbind",
-  :git => "git://github.com/ghoneycutt/puppet-module-rpcbind.git",
-  :ref => "v1.1.0"
+mod 'rpcbind',
+  :git => 'git://github.com/ghoneycutt/puppet-module-rpcbind.git',
+  :ref => 'v1.2.0'
 
 mod 'rsyslog',
   :git => 'git://github.com/ghoneycutt/puppet-module-rsyslog.git',
