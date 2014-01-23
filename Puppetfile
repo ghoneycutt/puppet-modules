@@ -8,7 +8,7 @@ mod "apt",
 
 mod 'common',
   :git => 'git://github.com/ghoneycutt/puppet-module-common.git',
-  :ref => 'v1.0.3'
+  :ref => 'v1.1.0'
 
 mod "concat",
   :git => "git://github.com/Ericsson/puppetlabs-concat.git",
@@ -25,9 +25,6 @@ mod 'facter',
 mod "firewall",
   :git => "git://github.com/ghoneycutt/puppetlabs-firewall.git",
   :ref => "0.2.1"
-
-mod "hp",
-  :git => "git://github.com/ghoneycutt/puppet-module-hp.git"
 
 mod 'hosts',
   :git => 'git://github.com/ghoneycutt/puppet-module-hosts.git',
@@ -91,9 +88,6 @@ mod "passenger",
   :git => "git://github.com/ghoneycutt/puppetlabs-passenger.git",
   :ref => "0.0.4/gh_fork"
 
-mod "physical",
-  :git => "git://github.com/ghoneycutt/puppet-module-physical.git"
-
 mod "postgresql",
   :git => "git://github.com/ghoneycutt/puppet-postgresql.git",
   :ref => "2.1.1/gh_fork"
@@ -149,12 +143,6 @@ mod 'utils',
 mod 'vim',
   :git => 'git://github.com/ghoneycutt/puppet-module-vim.git',
   :ref => 'v2.3.0'
-
-mod "virtual",
-  :git => "git://github.com/ghoneycutt/puppet-module-virtual.git"
-
-mod "vmware",
-  :git => "git://github.com/ghoneycutt/puppet-module-vmware.git"
 
 mod 'wget',
   :git => 'git://github.com/ghoneycutt/puppet-wget.git',
