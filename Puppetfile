@@ -104,8 +104,9 @@ mod 'rancid',
   :git => 'git://github.com/eoly/puppet-rancid.git',
   :ref => '0.1.1'
 
-mod "redhat",
-  :git => "git://github.com/ghoneycutt/puppet-module-redhat.git"
+mod 'redhat',
+  :git => 'git://github.com/ghoneycutt/puppet-module-redhat.git',
+  :ref => 'v0.1.1'
 
 mod 'rpcbind',
   :git => 'git://github.com/ghoneycutt/puppet-module-rpcbind.git',
