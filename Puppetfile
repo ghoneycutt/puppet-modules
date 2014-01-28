@@ -39,7 +39,7 @@ mod "inifile",
 
 mod 'inittab',
   :git => 'git://github.com/ghoneycutt/puppet-module-inittab.git',
-  :ref => 'v1.1.0'
+  :ref => 'v1.1.1'
 
 mod "localization",
   :git => "git://github.com/ghoneycutt/puppet-module-localization.git",
@@ -58,7 +58,7 @@ mod "network",
 
 mod 'nfs',
   :git => 'git://github.com/ghoneycutt/puppet-module-nfs.git',
-  :ref => 'v1.6.0'
+  :ref => 'v1.6.1'
 
 mod 'nisclient',
   :git => 'git://github.com/Ericsson/puppet-module-nisclient.git',
@@ -74,7 +74,7 @@ mod 'nsswitch',
 
 mod 'ntp',
   :git => 'git://github.com/ghoneycutt/puppet-module-ntp.git',
-  :ref => 'v2.2.0'
+  :ref => 'v2.2.1'
 
 mod "nx",
   :git => "git://github.com/Ericsson/puppet-module-nx.git",
@@ -82,7 +82,7 @@ mod "nx",
 
 mod 'pam',
   :git => 'git://github.com/ghoneycutt/puppet-module-pam.git',
-  :ref => 'v2.4.0'
+  :ref => 'v2.4.1'
 
 mod "passenger",
   :git => "git://github.com/ghoneycutt/puppetlabs-passenger.git",
