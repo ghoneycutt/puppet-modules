@@ -20,7 +20,7 @@ mod 'dnsclient',
 
 mod 'facter',
   :git => 'git://github.com/ghoneycutt/puppet-module-facter.git',
-  :ref => 'v1.1.1'
+  :ref => 'v1.1.2'
 
 mod "firewall",
   :git => "git://github.com/ghoneycutt/puppetlabs-firewall.git",
@@ -145,7 +145,7 @@ mod 'utils',
 
 mod 'vim',
   :git => 'git://github.com/ghoneycutt/puppet-module-vim.git',
-  :ref => 'v2.4.0'
+  :ref => 'v2.4.1'
 
 mod 'wget',
   :git => 'git://github.com/ghoneycutt/puppet-wget.git',
