@@ -67,7 +67,7 @@ mod 'nisclient',
 
 mod 'nrpe',
   :git => 'git://github.com/ghoneycutt/puppet-module-nrpe.git',
-  :ref => 'v0.7.0'
+  :ref => 'v0.7.1'
 
 mod 'nsswitch',
   :git => 'git://github.com/ghoneycutt/puppet-module-nsswitch.git',
