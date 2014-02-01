@@ -83,7 +83,7 @@ mod "nx",
 
 mod 'pam',
   :git => 'git://github.com/ghoneycutt/puppet-module-pam.git',
-  :ref => 'v2.4.1'
+  :ref => 'v2.4.2'
 
 mod "passenger",
   :git => "git://github.com/ghoneycutt/puppetlabs-passenger.git",
