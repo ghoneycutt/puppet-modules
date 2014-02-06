@@ -137,7 +137,7 @@ mod 'sysklogd',
 
 mod 'types',
   :git => 'git://github.com/ghoneycutt/puppet-module-types.git',
-  :ref => 'v1.2.0'
+  :ref => 'v1.3.0'
 
 mod 'utils',
   :git => 'git://github.com/ghoneycutt/puppet-module-utils.git',
