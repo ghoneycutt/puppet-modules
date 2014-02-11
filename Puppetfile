@@ -46,8 +46,9 @@ mod "localization",
   :git => "git://github.com/ghoneycutt/puppet-module-localization.git",
   :ref => "v1.0.0"
 
-mod "motd",
-  :git => "git://github.com/Ericsson/puppet-module-motd.git"
+mod 'motd',
+  :git => 'git://github.com/Ericsson/puppet-module-motd.git',
+  :ref => 'v1.0.0'
 
 mod 'mysql',
   :git => 'git://github.com/puppetlabs/puppetlabs-mysql.git',
