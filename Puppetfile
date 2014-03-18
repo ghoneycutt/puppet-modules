@@ -82,10 +82,6 @@ mod 'ntp',
   :git => 'git://github.com/ghoneycutt/puppet-module-ntp.git',
   :ref => 'v2.2.3'
 
-mod "nx",
-  :git => "git://github.com/Ericsson/puppet-module-nx.git",
-  :ref => "v1.0.1"
-
 mod 'pam',
   :git => 'git://github.com/ghoneycutt/puppet-module-pam.git',
   :ref => 'v2.4.3'
