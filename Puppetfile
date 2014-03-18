@@ -11,7 +11,7 @@ mod 'common',
   :ref => 'v1.1.0'
 
 mod "concat",
-  :git => "git://github.com/Ericsson/puppetlabs-concat.git",
+  :git => "git://github.com/puppetlabs/puppetlabs-concat.git",
   :ref => "1.0.0"
 
 mod 'dnsclient',
@@ -103,7 +103,7 @@ mod 'puppet',
   :ref => 'v2.9.2'
 
 mod "puppetdb",
-  :git => "git://github.com/Ericsson/puppetlabs-puppetdb.git",
+  :git => "git://github.com/puppetlabs/puppetlabs-puppetdb.git",
   :ref => "1.6.0"
 
 mod 'rancid',
