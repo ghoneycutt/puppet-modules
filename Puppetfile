@@ -10,9 +10,9 @@ mod 'common',
   :git => 'git://github.com/ghoneycutt/puppet-module-common.git',
   :ref => 'v1.1.0'
 
-mod "concat",
-  :git => "git://github.com/puppetlabs/puppetlabs-concat.git",
-  :ref => "1.0.0"
+mod 'concat',
+  :git => 'git://github.com/puppetlabs/puppetlabs-concat.git',
+  :ref => '1.1.0-rc1'
 
 mod 'dnsclient',
   :git => 'git://github.com/ghoneycutt/puppet-module-dnsclient.git',
