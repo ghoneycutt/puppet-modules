@@ -118,8 +118,9 @@ mod 'rsyslog',
   :git => 'git://github.com/ghoneycutt/puppet-module-rsyslog.git',
   :ref => 'v0.5.3'
 
-mod "selinux",
-  :git => "git://github.com/ghoneycutt/puppet-module-selinux.git"
+mod 'selinux',
+  :git => 'git://github.com/ghoneycutt/puppet-module-selinux.git',
+  :ref => 'v1.0.0'
 
 mod 'ssh',
   :git => 'git://github.com/ghoneycutt/puppet-module-ssh.git',
