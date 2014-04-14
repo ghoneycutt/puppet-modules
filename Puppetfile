@@ -96,7 +96,7 @@ mod "postgresql",
 
 mod 'puppet',
   :git => 'git://github.com/ghoneycutt/puppet-module-puppet.git',
-  :ref => 'v2.9.2'
+  :ref => 'v2.9.3'
 
 mod "puppetdb",
   :git => "git://github.com/puppetlabs/puppetlabs-puppetdb.git",
