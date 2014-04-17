@@ -86,9 +86,10 @@ mod 'pam',
   :git => 'git://github.com/ghoneycutt/puppet-module-pam.git',
   :ref => 'v2.4.3'
 
-mod "passenger",
-  :git => "git://github.com/ghoneycutt/puppetlabs-passenger.git",
-  :ref => "0.0.4/gh_fork"
+# waiting for this commit to be in a tagged release
+mod 'passenger',
+  :git => 'git://github.com/puppetlabs/puppetlabs-passenger.git',
+  :ref => 'c6fc34f669ab399be58b98cb752eafe176d6df00'
 
 mod "postgresql",
   :git => "git://github.com/ghoneycutt/puppet-postgresql.git",
