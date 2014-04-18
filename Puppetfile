@@ -91,17 +91,17 @@ mod 'passenger',
   :git => 'git://github.com/puppetlabs/puppetlabs-passenger.git',
   :ref => 'c6fc34f669ab399be58b98cb752eafe176d6df00'
 
-mod "postgresql",
-  :git => "git://github.com/ghoneycutt/puppet-postgresql.git",
-  :ref => "2.1.1/gh_fork"
+mod 'postgresql',
+  :git => 'git://github.com/puppetlabs/puppet-postgresql.git',
+  :ref => '3.3.3'
 
 mod 'puppet',
   :git => 'git://github.com/ghoneycutt/puppet-module-puppet.git',
   :ref => 'v2.9.3'
 
-mod "puppetdb",
-  :git => "git://github.com/puppetlabs/puppetlabs-puppetdb.git",
-  :ref => "1.6.0"
+mod 'puppetdb',
+  :git => 'git://github.com/puppetlabs/puppetlabs-puppetdb.git',
+  :ref => '3.0.1'
 
 mod 'rancid',
   :git => 'git://github.com/eoly/puppet-rancid.git',
