@@ -162,12 +162,9 @@ mod 'ssh',
   :git => 'git://github.com/ghoneycutt/puppet-module-ssh.git',
   :ref => 'v3.9.0'
 
-mod "stdlib",
-  :git => "git://github.com/puppetlabs/puppetlabs-stdlib.git",
-  :ref => "3.2.0"
-
-mod 'stdlibfeatures',
-  :git => 'git://github.com/ghoneycutt/puppet-module-stdlibfeatures.git'
+mod 'stdlib',
+  :git => 'git://github.com/puppetlabs/puppetlabs-stdlib.git',
+  :ref => '4.1.0'
 
 mod 'sysklogd',
   :git => 'git://github.com/ghoneycutt/puppet-module-sysklogd.git',
