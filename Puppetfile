@@ -26,6 +26,16 @@ mod "firewall",
   :git => "git://github.com/ghoneycutt/puppetlabs-firewall.git",
   :ref => "0.2.1"
 
+# needed for r10k
+mod 'gcc',
+  :git => 'git://github.com/puppetlabs/puppetlabs-gcc.git',
+  :ref => '0.1.0'
+
+# needed for r10k
+mod 'git',
+  :git => 'git://github.com/puppetlabs/puppetlabs-git.git',
+  :ref => '0.0.3'
+
 mod 'hosts',
   :git => 'git://github.com/ghoneycutt/puppet-module-hosts.git',
   :ref => 'v2.0.0'
@@ -34,9 +44,9 @@ mod 'htpasswd',
   :git => 'git://github.com/ghoneycutt/puppet-htpasswd.git',
   :ref => 'v0.0.1'
 
-mod "inifile",
-  :git => "git://github.com/ghoneycutt/puppetlabs-inifile.git",
-  :ref => "0.9.0"
+mod 'inifile',
+  :git => 'git://github.com/puppetlabs/puppetlabs-inifile.git',
+  :ref => '1.0.3'
 
 mod 'inittab',
   :git => 'git://github.com/ghoneycutt/puppet-module-inittab.git',
@@ -45,6 +55,12 @@ mod 'inittab',
 mod "localization",
   :git => "git://github.com/ghoneycutt/puppet-module-localization.git",
   :ref => "v1.0.0"
+
+# needed for r10k
+# no tags, so we use the latest commit
+mod 'make',
+  :git => 'git://github.com/Element84/puppet-make.git',
+  :ref => 'abe2fa511c01578d9aa4b9de13c295496c41186c'
 
 mod 'motd',
   :git => 'git://github.com/Ericsson/puppet-module-motd.git',
@@ -88,8 +104,18 @@ mod 'pam',
 
 # waiting for this commit to be in a tagged release
 mod 'passenger',
-  :git => 'git://github.com/puppetlabs/puppetlabs-passenger.git',
-  :ref => 'c6fc34f669ab399be58b98cb752eafe176d6df00'
+  :git => 'git://github.com/ghoneycutt/puppetlabs-passenger.git',
+  :ref => 'optionally_include_build_tools'
+
+# needed for r10k
+mod 'pe_gem',
+  :git => 'git://github.com/puppetlabs/puppetlabs-pe_gem.git',
+  :ref => '0.0.1'
+
+# needed for r10k
+mod 'portage',
+  :git => 'git://github.com/gentoo/puppet-portage.git',
+  :ref => '2.2.0-rc1'
 
 mod 'postgresql',
   :git => 'git://github.com/puppetlabs/puppet-postgresql.git',
@@ -102,6 +128,10 @@ mod 'puppet',
 mod 'puppetdb',
   :git => 'git://github.com/puppetlabs/puppetlabs-puppetdb.git',
   :ref => '3.0.1'
+
+mod 'r10k',
+  :git => 'git://github.com/ghoneycutt/r10k.git',
+  :ref => 'add_symlink_for_config_file'
 
 mod 'rancid',
   :git => 'git://github.com/eoly/puppet-rancid.git',
@@ -118,6 +148,11 @@ mod 'rpcbind',
 mod 'rsyslog',
   :git => 'git://github.com/ghoneycutt/puppet-module-rsyslog.git',
   :ref => 'v0.7.0'
+
+# needed for r10k
+mod 'ruby',
+  :git => 'git://github.com/puppetlabs/puppetlabs-ruby.git',
+  :ref => '0.1.1'
 
 mod 'selinux',
   :git => 'git://github.com/ghoneycutt/puppet-module-selinux.git',
@@ -149,6 +184,11 @@ mod 'utils',
 mod 'vim',
   :git => 'git://github.com/ghoneycutt/puppet-module-vim.git',
   :ref => 'v2.4.1'
+
+# needed for r10k
+mod 'vcsrepo',
+  :git => 'git://github.com/puppetlabs/puppetlabs-vcsrepo.git',
+  :ref => '0.1.0'
 
 mod 'wget',
   :git => 'git://github.com/ghoneycutt/puppet-wget.git',
