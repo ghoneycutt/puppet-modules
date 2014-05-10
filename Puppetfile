@@ -50,7 +50,7 @@ mod 'inifile',
 
 mod 'inittab',
   :git => 'git://github.com/ghoneycutt/puppet-module-inittab.git',
-  :ref => 'v1.1.1'
+  :ref => 'v2.2.0'
 
 mod "localization",
   :git => "git://github.com/ghoneycutt/puppet-module-localization.git",
@@ -139,7 +139,7 @@ mod 'rancid',
 
 mod 'redhat',
   :git => 'git://github.com/ghoneycutt/puppet-module-redhat.git',
-  :ref => 'v0.1.1'
+  :ref => 'v1.0.0'
 
 mod 'rpcbind',
   :git => 'git://github.com/ghoneycutt/puppet-module-rpcbind.git',
