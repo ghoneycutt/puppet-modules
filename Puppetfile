@@ -22,9 +22,9 @@ mod 'facter',
   :git => 'git://github.com/ghoneycutt/puppet-module-facter.git',
   :ref => 'v1.2.0'
 
-mod "firewall",
-  :git => "git://github.com/ghoneycutt/puppetlabs-firewall.git",
-  :ref => "0.2.1"
+mod 'firewall',
+  :git => 'git://github.com/puppetlabs/puppetlabs-firewall.git',
+  :ref => '0.2.1'
 
 # needed for r10k
 mod 'gcc',
