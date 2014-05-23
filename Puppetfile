@@ -100,7 +100,7 @@ mod 'ntp',
 
 mod 'pam',
   :git => 'git://github.com/ghoneycutt/puppet-module-pam.git',
-  :ref => 'v2.5.0'
+  :ref => 'v2.6.0'
 
 # waiting for this commit to be in a tagged release
 mod 'passenger',
