@@ -171,8 +171,8 @@ mod 'sysklogd',
   :ref => 'v1.0.0'
 
 mod 'timezone',
-  :git => 'git://github.com/ngrossmann/puppet-module-timezone.git',
-  :ref => 'v0.1.0'
+  :git => 'git://github.com/ghoneycutt/puppet-module-timezone.git',
+  :ref => 'support_el5'
 
 mod 'types',
   :git => 'git://github.com/ghoneycutt/puppet-module-types.git',
