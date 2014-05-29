@@ -156,7 +156,7 @@ mod 'ruby',
 
 mod 'selinux',
   :git => 'git://github.com/ghoneycutt/puppet-module-selinux.git',
-  :ref => 'v1.0.0'
+  :ref => 'v1.1.0'
 
 mod 'ssh',
   :git => 'git://github.com/ghoneycutt/puppet-module-ssh.git',
