@@ -21,6 +21,7 @@ VALIDATION_CMD="ruby -c ${PUPPETFILE}"
 CLEAN_CMD="${LIBRARIAN_PUPPET} clean ${LIBRARIAN_PUPPET_FLAGS}"
 CLEAN_CMD_DIR_TMP="${CLEAN_CMD} --path=${LIBRARIAN_DIR_TMP}"
 INSTALL_CMD="${LIBRARIAN_PUPPET} install ${LIBRARIAN_PUPPET_FLAGS} --path=${LIBRARIAN_DIR_TMP}"
+SVC_RESTART_CMD='service httpd graceful'
 
 if [ -d $LIBRARIAN_DIR ]; then
   cd $LIBRARIAN_DIR
@@ -64,7 +65,7 @@ if [ $? != 0 ]; then
   exit 8
 fi
 
-service httpd restart
+$SVC_RESTART_CMD
 if [ $? != 0 ]; then
   echo "Restarting httpd did not exit successfully."
   exit 5
