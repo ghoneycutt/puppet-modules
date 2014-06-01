@@ -8,7 +8,7 @@ mod "apt",
 
 mod 'common',
   :git => 'git://github.com/ghoneycutt/puppet-module-common.git',
-  :ref => 'v1.1.0'
+  :ref => 'v1.1.1'
 
 mod 'concat',
   :git => 'git://github.com/puppetlabs/puppetlabs-concat.git',
