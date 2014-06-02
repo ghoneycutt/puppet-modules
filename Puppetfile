@@ -129,6 +129,8 @@ mod 'puppetdb',
   :git => 'git://github.com/puppetlabs/puppetlabs-puppetdb.git',
   :ref => '3.0.1'
 
+# waiting for https://github.com/acidprime/r10k/pull/41 to be in a tagged
+# release to use upstream's repo.
 mod 'r10k',
   :git => 'git://github.com/ghoneycutt/r10k.git',
   :ref => 'add_symlink_for_config_file'
