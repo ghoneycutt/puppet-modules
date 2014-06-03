@@ -130,10 +130,10 @@ mod 'puppetdb',
   :ref => '3.0.1'
 
 # waiting for https://github.com/acidprime/r10k/pull/41 to be in a tagged
-# release to use upstream's repo.
+# release, at which point we will use that ref.
 mod 'r10k',
-  :git => 'git://github.com/ghoneycutt/r10k.git',
-  :ref => 'add_symlink_for_config_file'
+  :git => 'git://github.com/acidprime/r10k.git',
+  :ref => 'cc3296741d36eaef098fb76e771ffd09bcf2a345'
 
 mod 'rancid',
   :git => 'git://github.com/eoly/puppet-rancid.git',
