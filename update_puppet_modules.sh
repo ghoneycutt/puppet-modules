@@ -12,7 +12,7 @@
 # librarian-puppet-simple can be installed from source or with
 # `gem install librarian-puppet-simple`
 #
-LIBRARIAN_DIR=/var/local/puppet-modules
+LIBRARIAN_DIR=/var/local/ghoneycutt-modules
 LIBRARIAN_DIR_TMP=modules-tmp
 PUPPETFILE=${LIBRARIAN_DIR}/Puppetfile
 LIBRARIAN_PUPPET=librarian-puppet
