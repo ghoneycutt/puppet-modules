@@ -131,7 +131,7 @@ mod 'puppetdb',
 
 mod 'r10k',
   :git => 'git://github.com/acidprime/r10k.git',
-  :ref => 'v2.0.0'
+  :ref => 'v2.1.0'
 
 mod 'rancid',
   :git => 'git://github.com/eoly/puppet-rancid.git',
