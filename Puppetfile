@@ -189,7 +189,7 @@ mod 'vim',
 # needed for r10k
 mod 'vcsrepo',
   :git => 'git://github.com/puppetlabs/puppetlabs-vcsrepo.git',
-  :ref => '0.1.0'
+  :ref => '1.0.0'
 
 mod 'wget',
   :git => 'git://github.com/ghoneycutt/puppet-wget.git',
