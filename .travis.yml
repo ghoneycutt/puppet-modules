@@ -6,4 +6,5 @@ rvm:
 - 1.9.3
 - 2.0.0
 language: ruby
-script: 'rake check'
+script: 'rake check && librarian-puppet install --verbose'
+gemfile: Gemfile
