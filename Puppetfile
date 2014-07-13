@@ -1,10 +1,10 @@
-mod "apache",
-  :git => "git://github.com/ghoneycutt/puppetlabs-apache.git",
-  :ref => "manage_firewall_stop_purging_httpd_vdir"
+mod 'apache',
+  :git => 'git://github.com/ghoneycutt/puppetlabs-apache.git',
+  :ref => 'manage_firewall_stop_purging_httpd_vdir'
 
-mod "apt",
-  :git => "git://github.com/puppetlabs/puppetlabs-apt.git",
-  :ref => "1.1.0"
+mod 'apt',
+  :git => 'git://github.com/puppetlabs/puppetlabs-apt.git',
+  :ref => '1.1.0'
 
 mod 'common',
   :git => 'git://github.com/ghoneycutt/puppet-module-common.git',
@@ -52,9 +52,9 @@ mod 'inittab',
   :git => 'git://github.com/ghoneycutt/puppet-module-inittab.git',
   :ref => 'v2.5.0'
 
-mod "localization",
-  :git => "git://github.com/ghoneycutt/puppet-module-localization.git",
-  :ref => "v1.0.0"
+mod 'localization',
+  :git => 'git://github.com/ghoneycutt/puppet-module-localization.git',
+  :ref => 'v1.0.0'
 
 # needed for r10k
 # no tags, so we use the latest commit
@@ -70,9 +70,9 @@ mod 'mysql',
   :git => 'git://github.com/puppetlabs/puppetlabs-mysql.git',
   :ref => 'c57600e4f0aedddb7cb92bd113495a139a15ec68'
 
-mod "network",
-  :git => "git://github.com/ghoneycutt/puppet-network.git",
-  :ref => "gh_huge_refactor"
+mod 'network',
+  :git => 'git://github.com/ghoneycutt/puppet-network.git',
+  :ref => 'gh_huge_refactor'
 
 mod 'nfs',
   :git => 'git://github.com/ghoneycutt/puppet-module-nfs.git',
@@ -195,6 +195,6 @@ mod 'wget',
   :git => 'git://github.com/ghoneycutt/puppet-wget.git',
   :ref => 'fork'
 
-mod "xinetd",
-  :git => "git://github.com/puppetlabs/puppetlabs-xinetd.git",
-  :ref => "1.2.0"
+mod 'xinetd',
+  :git => 'git://github.com/puppetlabs/puppetlabs-xinetd.git',
+  :ref => '1.2.0'
