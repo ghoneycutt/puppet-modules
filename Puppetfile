@@ -168,7 +168,7 @@ mod 'stdlib',
 
 mod 'sysklogd',
   :git => 'git://github.com/ghoneycutt/puppet-module-sysklogd.git',
-  :ref => 'v1.0.0'
+  :ref => 'v1.0.1'
 
 mod 'timezone',
   :git => 'git://github.com/ghoneycutt/puppet-module-timezone.git',
