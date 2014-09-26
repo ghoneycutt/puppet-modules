@@ -24,17 +24,17 @@ mod 'facter',
 
 mod 'firewall',
   :git => 'git://github.com/puppetlabs/puppetlabs-firewall.git',
-  :ref => '1.1.1'
+  :ref => '1.1.3'
 
 # needed for r10k
 mod 'gcc',
   :git => 'git://github.com/puppetlabs/puppetlabs-gcc.git',
-  :ref => '0.1.0'
+  :ref => '0.2.0'
 
 # needed for r10k
 mod 'git',
   :git => 'git://github.com/puppetlabs/puppetlabs-git.git',
-  :ref => '0.0.3'
+  :ref => '0.2.0'
 
 mod 'hosts',
   :git => 'git://github.com/ghoneycutt/puppet-module-hosts.git',
@@ -115,7 +115,7 @@ mod 'pe_gem',
 # needed for r10k
 mod 'portage',
   :git => 'git://github.com/gentoo/puppet-portage.git',
-  :ref => '2.2.0-rc1'
+  :ref => '2.2.0'
 
 mod 'postgresql',
   :git => 'git://github.com/puppetlabs/puppet-postgresql.git',
@@ -131,7 +131,7 @@ mod 'puppetdb',
 
 mod 'r10k',
   :git => 'git://github.com/acidprime/r10k.git',
-  :ref => 'v2.1.2'
+  :ref => 'v2.3.0'
 
 mod 'rancid',
   :git => 'git://github.com/eoly/puppet-rancid.git',
@@ -152,7 +152,7 @@ mod 'rsyslog',
 # needed for r10k
 mod 'ruby',
   :git => 'git://github.com/puppetlabs/puppetlabs-ruby.git',
-  :ref => '0.1.1'
+  :ref => '0.3.0'
 
 mod 'selinux',
   :git => 'git://github.com/ghoneycutt/puppet-module-selinux.git',
@@ -189,7 +189,7 @@ mod 'vim',
 # needed for r10k
 mod 'vcsrepo',
   :git => 'git://github.com/puppetlabs/puppetlabs-vcsrepo.git',
-  :ref => '1.0.0'
+  :ref => '1.1.0'
 
 mod 'wget',
   :git => 'git://github.com/ghoneycutt/puppet-wget.git',
@@ -197,4 +197,4 @@ mod 'wget',
 
 mod 'xinetd',
   :git => 'git://github.com/puppetlabs/puppetlabs-xinetd.git',
-  :ref => '1.2.0'
+  :ref => '1.3.1'
