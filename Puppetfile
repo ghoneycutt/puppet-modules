@@ -180,7 +180,7 @@ mod 'types',
 
 mod 'utils',
   :git => 'git://github.com/ghoneycutt/puppet-module-utils.git',
-  :ref => 'v2.1.0'
+  :ref => 'v2.2.0'
 
 mod 'vim',
   :git => 'git://github.com/ghoneycutt/puppet-module-vim.git',
