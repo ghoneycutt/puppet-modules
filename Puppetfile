@@ -16,7 +16,7 @@ mod 'concat',
 
 mod 'dnsclient',
   :git => 'git://github.com/ghoneycutt/puppet-module-dnsclient.git',
-  :ref => 'v3.1.1'
+  :ref => 'v3.2.0'
 
 mod 'facter',
   :git => 'git://github.com/ghoneycutt/puppet-module-facter.git',
