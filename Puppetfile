@@ -143,7 +143,7 @@ mod 'redhat',
 
 mod 'rpcbind',
   :git => 'git://github.com/ghoneycutt/puppet-module-rpcbind.git',
-  :ref => 'v1.3.0'
+  :ref => 'v1.3.1'
 
 mod 'rsyslog',
   :git => 'git://github.com/ghoneycutt/puppet-module-rsyslog.git',
