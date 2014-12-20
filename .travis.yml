@@ -9,3 +9,4 @@ rvm:
 language: ruby
 script: 'rake check && librarian-puppet install --verbose'
 gemfile: Gemfile
+sudo: false
