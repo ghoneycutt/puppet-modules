@@ -164,7 +164,7 @@ mod 'ssh',
 
 mod 'stdlib',
   :git => 'git://github.com/puppetlabs/puppetlabs-stdlib.git',
-  :ref => '4.2.2'
+  :ref => '4.5.1'
 
 mod 'sysklogd',
   :git => 'git://github.com/ghoneycutt/puppet-module-sysklogd.git',
