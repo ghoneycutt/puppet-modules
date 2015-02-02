@@ -100,7 +100,7 @@ mod 'ntp',
 
 mod 'pam',
   :git => 'git://github.com/ghoneycutt/puppet-module-pam.git',
-  :ref => 'v2.13.0'
+  :ref => 'v2.14.0'
 
 mod 'passenger',
   :git => 'git://github.com/puppetlabs/puppetlabs-passenger.git',
