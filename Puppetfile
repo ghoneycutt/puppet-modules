@@ -151,7 +151,7 @@ mod 'rsyslog',
 # needed for r10k
 mod 'ruby',
   :git => 'git://github.com/puppetlabs/puppetlabs-ruby.git',
-  :ref => '0.3.0'
+  :ref => '0.4.0'
 
 mod 'selinux',
   :git => 'git://github.com/ghoneycutt/puppet-module-selinux.git',
