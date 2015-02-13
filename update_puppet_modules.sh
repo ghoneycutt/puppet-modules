@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Garrett Honeycutt - code@garretthoneycutt.com - copyright 2013
+# Garrett Honeycutt - code@garretthoneycutt.com - copyright 2013-2015
 #
 # Licensed under Apache Software License v2.0
 #
