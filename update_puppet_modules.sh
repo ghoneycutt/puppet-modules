@@ -8,6 +8,11 @@
 # wrapper script that validates the Puppetfile, initiates
 # librarian-puppet-simple, and restarts the puppet master.
 #
+# You may optionally pass the argument 'https' which will invoke sed to replace
+# 'git:' with 'https:' before running the validation and install and after will
+# run revert the Puppetfile using `git checkout -- Puppetfile` so that you are
+# back in a state where `git pull` will work.
+#
 # https://github.com/bodepd/librarian-puppet-simple
 # librarian-puppet-simple can be installed from source or with
 # `gem install librarian-puppet-simple`
@@ -22,6 +27,7 @@ CLEAN_CMD="${LIBRARIAN_PUPPET} clean ${LIBRARIAN_PUPPET_FLAGS}"
 CLEAN_CMD_DIR_TMP="${CLEAN_CMD} --path=${LIBRARIAN_DIR_TMP}"
 INSTALL_CMD="${LIBRARIAN_PUPPET} install ${LIBRARIAN_PUPPET_FLAGS} --path=${LIBRARIAN_DIR_TMP}"
 SVC_RESTART_CMD='service httpd graceful'
+REVERT_SCRIPT="git checkout -- ${PUPPETFILE}"
 
 if [ -d $LIBRARIAN_DIR ]; then
   cd $LIBRARIAN_DIR
@@ -33,6 +39,16 @@ fi
 if [ ! -r $PUPPETFILE ]; then
   echo "PUPPETFILE (${PUPPETFILE}) does not exist or is not readable."
   exit 2
+fi
+
+if [ $# -eq 1 ]; then
+  if [ $1 == 'https' ]; then
+    sed -i $PUPPETFILE -e 's/git:/https:/'
+    if [ $? != 0 ]; then
+      echo "Search and replace command exited non-zero."
+      exit 9
+    fi
+  fi
 fi
 
 $VALIDATION_CMD
@@ -51,6 +67,16 @@ $INSTALL_CMD
 if [ $? != 0 ]; then
   echo "Installing the library with (${INSTALL_CMD}) did not exit successfully."
   exit 4
+fi
+
+if [ $# -eq 1 ]; then
+  if [ $1 == 'https' ]; then
+    $REVERT_SCRIPT
+    if [ $? != 0 ]; then
+      echo "Reverting the script with (${REVERT_SCRIPT}) exited non-zero."
+      exit 10
+    fi
+  fi
 fi
 
 $CLEAN_CMD
