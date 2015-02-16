@@ -96,7 +96,7 @@ mod 'nsswitch',
 
 mod 'ntp',
   :git => 'git://github.com/ghoneycutt/puppet-module-ntp.git',
-  :ref => 'v3.4.0'
+  :ref => 'v3.5.1'
 
 mod 'pam',
   :git => 'git://github.com/ghoneycutt/puppet-module-pam.git',
