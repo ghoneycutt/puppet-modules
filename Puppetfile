@@ -108,7 +108,7 @@ mod 'papertrail',
 
 mod 'passenger',
   :git => 'git://github.com/puppetlabs/puppetlabs-passenger.git',
-  :ref => '0.4.0'
+  :ref => '0.4.1'
 
 # needed for r10k
 mod 'pe_gem',
