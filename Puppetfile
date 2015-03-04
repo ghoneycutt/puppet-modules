@@ -46,7 +46,7 @@ mod 'htpasswd',
 
 mod 'inifile',
   :git => 'git://github.com/puppetlabs/puppetlabs-inifile.git',
-  :ref => '1.1.3'
+  :ref => '1.2.0'
 
 mod 'inittab',
   :git => 'git://github.com/ghoneycutt/puppet-module-inittab.git',
