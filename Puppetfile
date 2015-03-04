@@ -34,7 +34,7 @@ mod 'gcc',
 # needed for r10k
 mod 'git',
   :git => 'git://github.com/puppetlabs/puppetlabs-git.git',
-  :ref => '0.2.0'
+  :ref => '0.3.0'
 
 mod 'hosts',
   :git => 'git://github.com/ghoneycutt/puppet-module-hosts.git',
