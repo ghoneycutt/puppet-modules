@@ -113,7 +113,7 @@ mod 'passenger',
 # needed for r10k
 mod 'pe_gem',
   :git => 'git://github.com/puppetlabs/puppetlabs-pe_gem.git',
-  :ref => '0.0.1'
+  :ref => '0.1.0'
 
 # needed for r10k
 mod 'portage',
