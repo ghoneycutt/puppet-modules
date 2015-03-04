@@ -12,7 +12,7 @@ mod 'common',
 
 mod 'concat',
   :git => 'git://github.com/puppetlabs/puppetlabs-concat.git',
-  :ref => '1.1.1'
+  :ref => '1.2.0'
 
 mod 'dnsclient',
   :git => 'git://github.com/ghoneycutt/puppet-module-dnsclient.git',
