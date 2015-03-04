@@ -4,7 +4,7 @@ mod 'apache',
 
 mod 'apt',
   :git => 'git://github.com/puppetlabs/puppetlabs-apt.git',
-  :ref => '1.1.0'
+  :ref => '1.7.0'
 
 mod 'common',
   :git => 'git://github.com/ghoneycutt/puppet-module-common.git',
