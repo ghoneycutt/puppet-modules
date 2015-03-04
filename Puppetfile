@@ -200,4 +200,4 @@ mod 'wget',
 
 mod 'xinetd',
   :git => 'git://github.com/puppetlabs/puppetlabs-xinetd.git',
-  :ref => '1.3.1'
+  :ref => '1.5.0'
