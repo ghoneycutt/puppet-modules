@@ -2,6 +2,9 @@ mod 'apache',
   :git => 'git://github.com/ghoneycutt/puppetlabs-apache.git',
   :ref => 'manage_firewall_stop_purging_httpd_vdir'
 
+# dependency of puppetlabs/postgresql
+# can be removed when
+# https://github.com/puppetlabs/puppetlabs-postgresql/pull/575 is merged.
 mod 'apt',
   :git => 'git://github.com/puppetlabs/puppetlabs-apt.git',
   :ref => '1.7.0'
