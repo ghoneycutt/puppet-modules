@@ -41,7 +41,7 @@ mod 'git',
 
 mod 'hosts',
   :git => 'git://github.com/ghoneycutt/puppet-module-hosts.git',
-  :ref => 'v2.2.2'
+  :ref => 'v2.2.3'
 
 mod 'htpasswd',
   :git => 'git://github.com/ghoneycutt/puppet-htpasswd.git',
