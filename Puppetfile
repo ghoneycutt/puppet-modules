@@ -166,7 +166,7 @@ mod 'selinux',
 
 mod 'ssh',
   :git => 'git://github.com/ghoneycutt/puppet-module-ssh.git',
-  :ref => 'v3.27.2'
+  :ref => 'v3.28.0'
 
 mod 'stdlib',
   :git => 'git://github.com/puppetlabs/puppetlabs-stdlib.git',
