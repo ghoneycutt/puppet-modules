@@ -51,5 +51,5 @@ git pull
 
 This will use sed to replace git: with https: and then revert the
 Puppetfile after installation. Useful hack if you have firewall issues
-that prevent git but allow https and do not want to fork the project of
-manually run sed.
+that prevent git but allow https and do not want to fork the project
+simply to change the protocol.
