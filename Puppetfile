@@ -27,7 +27,7 @@ mod 'facter',
 
 mod 'firewall',
   :git => 'git://github.com/puppetlabs/puppetlabs-firewall.git',
-  :ref => '1.4.0'
+  :ref => '1.6.0'
 
 # needed for r10k
 mod 'gcc',
