@@ -23,7 +23,7 @@ mod 'dnsclient',
 
 mod 'facter',
   :git => 'git://github.com/ghoneycutt/puppet-module-facter.git',
-  :ref => 'v2.0.0'
+  :ref => 'v2.1.0'
 
 mod 'firewall',
   :git => 'git://github.com/puppetlabs/puppetlabs-firewall.git',
