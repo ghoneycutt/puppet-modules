@@ -91,7 +91,7 @@ mod 'nrpe',
 
 mod 'nscd',
   :git => 'git://github.com/ghoneycutt/puppet-module-nscd.git',
-  :ref => 'v1.6.0'
+  :ref => 'v1.6.1'
 
 mod 'nsswitch',
   :git => 'git://github.com/ghoneycutt/puppet-module-nsswitch.git',
