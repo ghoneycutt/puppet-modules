@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# validate syntax
+exec rake check
