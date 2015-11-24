@@ -7,6 +7,6 @@ rvm:
 - 2.0.0
 - 2.1.0
 language: ruby
-script: 'rake check && librarian-puppet install --verbose'
+script: 'rake check && rake install'
 gemfile: Gemfile
 sudo: false
