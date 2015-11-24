@@ -10,7 +10,6 @@ rvm:
 sudo: false
 
 script: 'rake check && rake install'
-gemfile: Gemfile
 
 notifications:
   email: false
