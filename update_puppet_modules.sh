@@ -11,7 +11,8 @@
 # You may optionally pass the argument 'https' which will invoke sed to replace
 # 'git:' with 'https:' before running the validation and install and after will
 # run revert the Puppetfile using `git checkout -- Puppetfile` so that you are
-# back in a state where `git pull` will work.
+# back in a state where `git pull` will work. You may also pass the argument
+# 'git' which does the same thing, but ensures that the git protocol is used.
 #
 # https://github.com/bodepd/librarian-puppet-simple
 # librarian-puppet-simple can be installed from source or with
@@ -44,6 +45,16 @@ fi
 if [ $# -eq 1 ]; then
   if [ $1 == 'https' ]; then
     sed -i $PUPPETFILE -e 's/git:/https:/'
+    if [ $? != 0 ]; then
+      echo "Search and replace command exited non-zero."
+      exit 9
+    fi
+  fi
+fi
+
+if [ $# -eq 1 ]; then
+  if [ $1 == 'https' ]; then
+    sed -i $PUPPETFILE -e 's/https:/git:/'
     if [ $? != 0 ]; then
       echo "Search and replace command exited non-zero."
       exit 9
