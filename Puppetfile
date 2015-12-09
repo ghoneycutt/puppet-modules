@@ -17,6 +17,10 @@ mod 'concat',
   :git => 'git://github.com/puppetlabs/puppetlabs-concat.git',
   :ref => '1.2.0'
 
+mod 'cron',
+  :git => 'git://github.com/Ericsson/puppet-module-cron.git',
+  :ref => 'v2.0.0'
+
 mod 'dnsclient',
   :git => 'git://github.com/ghoneycutt/puppet-module-dnsclient.git',
   :ref => 'v3.4.0'
