@@ -83,7 +83,7 @@ mod 'network',
 
 mod 'nfs',
   :git => 'https://github.com/ghoneycutt/puppet-module-nfs.git',
-  :ref => 'v1.11.1'
+  :ref => 'v1.11.2'
 
 mod 'nisclient',
   :git => 'https://github.com/Ericsson/puppet-module-nisclient.git',
@@ -111,7 +111,7 @@ mod 'pam',
 
 mod 'papertrail',
   :git => 'https://github.com/ghoneycutt/puppet-module-papertrail.git',
-  :ref => 'v1.1.1'
+  :ref => 'v1.1.2'
 
 mod 'passenger',
   :git => 'https://github.com/puppetlabs/puppetlabs-passenger.git',
