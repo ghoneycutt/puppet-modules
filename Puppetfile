@@ -111,7 +111,7 @@ mod 'pam',
 
 mod 'papertrail',
   :git => 'https://github.com/ghoneycutt/puppet-module-papertrail.git',
-  :ref => 'v1.1.0'
+  :ref => 'v1.1.1'
 
 mod 'passenger',
   :git => 'https://github.com/puppetlabs/puppetlabs-passenger.git',
