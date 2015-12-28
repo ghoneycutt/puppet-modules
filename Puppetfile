@@ -91,7 +91,7 @@ mod 'nisclient',
 
 mod 'nrpe',
   :git => 'https://github.com/ghoneycutt/puppet-module-nrpe.git',
-  :ref => 'v1.0.1'
+  :ref => 'v1.1.0'
 
 mod 'nscd',
   :git => 'https://github.com/ghoneycutt/puppet-module-nscd.git',
