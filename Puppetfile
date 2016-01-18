@@ -157,7 +157,7 @@ mod 'rpcbind',
 
 mod 'rsyslog',
   :git => 'https://github.com/ghoneycutt/puppet-module-rsyslog.git',
-  :ref => 'v0.23.0'
+  :ref => 'v0.22.0'
 
 # needed for r10k
 mod 'ruby',
