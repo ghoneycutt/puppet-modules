@@ -7,7 +7,7 @@ mod 'apache',
 # https://github.com/puppetlabs/puppetlabs-postgresql/pull/575 is merged.
 mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
-  :ref => '1.7.0'
+  :ref => '2.2.1'
 
 mod 'common',
   :git => 'https://github.com/ghoneycutt/puppet-module-common.git',
