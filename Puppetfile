@@ -87,7 +87,7 @@ mod 'nfs',
 
 mod 'nisclient',
   :git => 'https://github.com/Ericsson/puppet-module-nisclient.git',
-  :ref => 'v0.2.0'
+  :ref => 'v1.1.0'
 
 mod 'nrpe',
   :git => 'https://github.com/ghoneycutt/puppet-module-nrpe.git',
