@@ -11,7 +11,7 @@ mod 'apt',
 
 mod 'common',
   :git => 'https://github.com/ghoneycutt/puppet-module-common.git',
-  :ref => 'v1.5.0'
+  :ref => 'v1.6.0'
 
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
