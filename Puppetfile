@@ -45,7 +45,7 @@ mod 'git',
 
 mod 'hosts',
   :git => 'https://github.com/ghoneycutt/puppet-module-hosts.git',
-  :ref => 'v2.2.3'
+  :ref => 'v2.3.0'
 
 mod 'htpasswd',
   :git => 'https://github.com/ghoneycutt/puppet-htpasswd.git',
@@ -95,7 +95,7 @@ mod 'nrpe',
 
 mod 'nscd',
   :git => 'https://github.com/ghoneycutt/puppet-module-nscd.git',
-  :ref => 'v1.7.0'
+  :ref => 'v1.8.0'
 
 mod 'nsswitch',
   :git => 'https://github.com/ghoneycutt/puppet-module-nsswitch.git',
