@@ -21,6 +21,7 @@ mod 'cron',
   :git => 'https://github.com/Ericsson/puppet-module-cron.git',
   :ref => '2.0.0'
 
+# Puppet Approved
 mod 'dnsclient',
   :git => 'https://github.com/ghoneycutt/puppet-module-dnsclient.git',
   :ref => 'v3.4.0'
@@ -43,6 +44,7 @@ mod 'git',
   :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
   :ref => '0.3.0'
 
+# Puppet Approved
 mod 'hosts',
   :git => 'https://github.com/ghoneycutt/puppet-module-hosts.git',
   :ref => 'v2.3.0'
@@ -55,6 +57,7 @@ mod 'inifile',
   :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
   :ref => '1.5.0'
 
+# Puppet Approved
 mod 'inittab',
   :git => 'https://github.com/ghoneycutt/puppet-module-inittab.git',
   :ref => 'v2.8.1'
@@ -105,6 +108,7 @@ mod 'ntp',
   :git => 'https://github.com/ghoneycutt/puppet-module-ntp.git',
   :ref => 'v4.1.1'
 
+# Puppet Approved
 mod 'pam',
   :git => 'https://github.com/ghoneycutt/puppet-module-pam.git',
   :ref => 'v2.22.0'
@@ -168,6 +172,7 @@ mod 'selinux',
   :git => 'https://github.com/ghoneycutt/puppet-module-selinux.git',
   :ref => 'v1.1.0'
 
+# Puppet Approved
 mod 'ssh',
   :git => 'https://github.com/ghoneycutt/puppet-module-ssh.git',
   :ref => 'v3.37.0'
