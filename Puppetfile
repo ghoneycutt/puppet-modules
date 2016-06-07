@@ -40,9 +40,10 @@ mod 'gcc',
   :ref => '0.2.0'
 
 # needed for r10k
+# This hash is past 0.4.0. Waiting for them to cut a newer release.
 mod 'git',
   :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
-  :ref => '0.3.0'
+  :ref => '5e862242466de4ae654a5de5ef4c1bc4e4b9f92e'
 
 # Puppet Approved
 mod 'hosts',
