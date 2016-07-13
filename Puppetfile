@@ -9,6 +9,10 @@ mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
   :ref => '2.2.1'
 
+mod 'autofs',
+  :git => 'https://github.com/gusson/puppet-module-autofs.git',
+  :ref => 'v1.2.0'
+
 mod 'common',
   :git => 'https://github.com/ghoneycutt/puppet-module-common.git',
   :ref => 'v1.6.0'
