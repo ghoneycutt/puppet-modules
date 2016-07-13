@@ -182,6 +182,10 @@ mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
   :ref => '4.6.0'
 
+mod 'sudo',
+  :git => 'https://github.com/Ericsson/puppet-module-sudo.git',
+  :ref => 'v0.6.1'
+
 mod 'sysklogd',
   :git => 'https://github.com/ghoneycutt/puppet-module-sysklogd.git',
   :ref => 'v1.0.1'
