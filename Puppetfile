@@ -9,9 +9,10 @@ mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
   :ref => '2.2.1'
 
+# Waiting for a release > v1.2.0 which will contain the commit below.
 mod 'autofs',
-  :git => 'https://github.com/gusson/puppet-module-autofs.git',
-  :ref => 'v1.2.0'
+  :git => 'https://github.com/gusson/puppet-module-autofs',
+  :ref => '8e326186ef3b40e59939b0378d3d43c5d74f70b9'
 
 mod 'common',
   :git => 'https://github.com/ghoneycutt/puppet-module-common.git',
@@ -185,9 +186,11 @@ mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
   :ref => '4.6.0'
 
+# Once https://github.com/Ericsson/puppet-module-sudo/pull/24 is merged, this
+# will be changed back to point to upstream
 mod 'sudo',
-  :git => 'https://github.com/Ericsson/puppet-module-sudo.git',
-  :ref => 'v0.6.1'
+  :git => 'https://github.com/ghoneycutt/puppet-module-sudo.git',
+  :ref => 'various'
 
 mod 'sysklogd',
   :git => 'https://github.com/ghoneycutt/puppet-module-sysklogd.git',
