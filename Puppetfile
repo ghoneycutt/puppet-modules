@@ -3,11 +3,11 @@ mod 'apache',
   :ref => 'manage_firewall_stop_purging_httpd_vdir'
 
 # dependency of puppetlabs/postgresql
-# can be removed when
-# https://github.com/puppetlabs/puppetlabs-postgresql/pull/575 is merged.
+# Using this branch until https://github.com/puppetlabs/puppetlabs-apt/pull/616
+# is merged
 mod 'apt',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
-  :ref => '2.2.1'
+  :git => 'https://github.com/ghoneycutt/puppetlabs-apt.git',
+  :ref => 'add_confs'
 
 # Waiting for a release > v1.2.0 which will contain the commit below.
 mod 'autofs',
