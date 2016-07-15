@@ -42,7 +42,7 @@ mod 'firewall',
 # needed for r10k
 mod 'gcc',
   :git => 'https://github.com/puppetlabs/puppetlabs-gcc.git',
-  :ref => '0.2.0'
+  :ref => '0.3.0'
 
 # needed for r10k
 mod 'git',
