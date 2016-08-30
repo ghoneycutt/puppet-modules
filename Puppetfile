@@ -23,7 +23,7 @@ mod 'concat',
 
 mod 'cron',
   :git => 'https://github.com/Ericsson/puppet-module-cron.git',
-  :ref => '2.0.0'
+  :ref => '2.1.0'
 
 # Puppet Approved
 mod 'dnsclient',
