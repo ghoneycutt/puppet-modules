@@ -128,12 +128,12 @@ mod 'passenger',
 # needed for r10k
 mod 'pe_gem',
   :git => 'https://github.com/puppetlabs/puppetlabs-pe_gem.git',
-  :ref => '0.1.0'
+  :ref => '0.1.2'
 
 # needed for r10k
 mod 'portage',
   :git => 'https://github.com/gentoo/puppet-portage.git',
-  :ref => '2.2.0'
+  :ref => '2.3.0'
 
 mod 'postgresql',
   :git => 'https://github.com/puppetlabs/puppet-postgresql.git',
