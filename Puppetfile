@@ -9,10 +9,9 @@ mod 'apt',
   :git => 'https://github.com/ghoneycutt/puppetlabs-apt.git',
   :ref => 'add_confs'
 
-# Waiting for a release > v1.2.0 which will contain the commit below.
 mod 'autofs',
   :git => 'https://github.com/gusson/puppet-module-autofs',
-  :ref => '8e326186ef3b40e59939b0378d3d43c5d74f70b9'
+  :ref => 'v1.3.0'
 
 mod 'common',
   :git => 'https://github.com/ghoneycutt/puppet-module-common.git',
