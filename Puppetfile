@@ -68,7 +68,7 @@ mod 'inittab',
 
 mod 'localization',
   :git => 'https://github.com/ghoneycutt/puppet-module-localization.git',
-  :ref => 'v1.0.0'
+  :ref => 'v1.0.1'
 
 # needed for r10k
 # no tags, so we use the latest commit
