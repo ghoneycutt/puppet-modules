@@ -135,9 +135,11 @@ mod 'portage',
   :git => 'https://github.com/gentoo/puppet-portage.git',
   :ref => '2.3.0'
 
+# Use 3.4.3 once the tag is created. Waiting on
+# https://tickets.puppetlabs.com/browse/MODULES-3816
 mod 'postgresql',
   :git => 'https://github.com/puppetlabs/puppet-postgresql.git',
-  :ref => '3.3.3'
+  :ref => '3.4.2'
 
 mod 'puppet',
   :git => 'https://github.com/ghoneycutt/puppet-module-puppet.git',
