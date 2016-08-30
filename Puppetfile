@@ -82,7 +82,7 @@ mod 'motd',
 
 mod 'mysql',
   :git => 'https://github.com/puppetlabs/puppetlabs-mysql.git',
-  :ref => 'c57600e4f0aedddb7cb92bd113495a139a15ec68'
+  :ref => '2.3.1'
 
 mod 'network',
   :git => 'https://github.com/ghoneycutt/puppet-network.git',
