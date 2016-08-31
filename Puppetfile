@@ -28,7 +28,7 @@ mod 'cron',
 # Puppet Approved
 mod 'dnsclient',
   :git => 'https://github.com/ghoneycutt/puppet-module-dnsclient.git',
-  :ref => 'v3.4.0'
+  :ref => 'v3.5.1'
 
 mod 'facter',
   :git => 'https://github.com/ghoneycutt/puppet-module-facter.git',
@@ -51,11 +51,11 @@ mod 'git',
 # Puppet Approved
 mod 'hosts',
   :git => 'https://github.com/ghoneycutt/puppet-module-hosts.git',
-  :ref => 'v2.3.0'
+  :ref => 'v2.4.0'
 
 mod 'htpasswd',
   :git => 'https://github.com/ghoneycutt/puppet-htpasswd.git',
-  :ref => 'v0.1.0'
+  :ref => 'v0.2.0'
 
 mod 'inifile',
   :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
@@ -90,7 +90,7 @@ mod 'network',
 
 mod 'nfs',
   :git => 'https://github.com/ghoneycutt/puppet-module-nfs.git',
-  :ref => 'v1.11.3'
+  :ref => 'v1.12.0'
 
 mod 'nisclient',
   :git => 'https://github.com/Ericsson/puppet-module-nisclient.git',
@@ -98,7 +98,7 @@ mod 'nisclient',
 
 mod 'nrpe',
   :git => 'https://github.com/ghoneycutt/puppet-module-nrpe.git',
-  :ref => 'v1.3.0'
+  :ref => 'v1.4.0'
 
 mod 'nscd',
   :git => 'https://github.com/ghoneycutt/puppet-module-nscd.git',
@@ -106,7 +106,7 @@ mod 'nscd',
 
 mod 'nsswitch',
   :git => 'https://github.com/ghoneycutt/puppet-module-nsswitch.git',
-  :ref => 'v1.5.1'
+  :ref => 'v1.6.0'
 
 mod 'ntp',
   :git => 'https://github.com/ghoneycutt/puppet-module-ntp.git',
@@ -115,7 +115,7 @@ mod 'ntp',
 # Puppet Approved
 mod 'pam',
   :git => 'https://github.com/ghoneycutt/puppet-module-pam.git',
-  :ref => 'v2.27.0'
+  :ref => 'v2.28.0'
 
 mod 'papertrail',
   :git => 'https://github.com/ghoneycutt/puppet-module-papertrail.git',
@@ -163,7 +163,7 @@ mod 'redhat',
 
 mod 'rpcbind',
   :git => 'https://github.com/ghoneycutt/puppet-module-rpcbind.git',
-  :ref => 'v1.5.0'
+  :ref => 'v1.6.1'
 
 mod 'rsyslog',
   :git => 'https://github.com/ghoneycutt/puppet-module-rsyslog.git',
@@ -176,7 +176,7 @@ mod 'ruby',
 
 mod 'selinux',
   :git => 'https://github.com/ghoneycutt/puppet-module-selinux.git',
-  :ref => 'v1.2.0'
+  :ref => 'v1.3.1'
 
 # Puppet Approved
 mod 'ssh',
