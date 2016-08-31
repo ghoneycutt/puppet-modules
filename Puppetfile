@@ -64,7 +64,7 @@ mod 'inifile',
 # Puppet Approved
 mod 'inittab',
   :git => 'https://github.com/ghoneycutt/puppet-module-inittab.git',
-  :ref => 'v2.8.1'
+  :ref => 'v2.9.0'
 
 mod 'localization',
   :git => 'https://github.com/ghoneycutt/puppet-module-localization.git',
