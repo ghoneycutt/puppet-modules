@@ -110,7 +110,7 @@ mod 'nsswitch',
 
 mod 'ntp',
   :git => 'https://github.com/ghoneycutt/puppet-module-ntp.git',
-  :ref => 'v4.1.1'
+  :ref => 'v4.2.0'
 
 # Puppet Approved
 mod 'pam',
