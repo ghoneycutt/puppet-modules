@@ -10,7 +10,7 @@ mod 'apt',
 
 mod 'autofs',
   :git => 'https://github.com/gusson/puppet-module-autofs',
-  :ref => 'v1.3.0'
+  :ref => 'v1.4.0'
 
 mod 'common',
   :git => 'https://github.com/ghoneycutt/puppet-module-common.git',
@@ -186,11 +186,9 @@ mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
   :ref => '4.6.0'
 
-# Once https://github.com/Ericsson/puppet-module-sudo/pull/24 is merged, this
-# will be changed back to point to upstream
 mod 'sudo',
-  :git => 'https://github.com/ghoneycutt/puppet-module-sudo.git',
-  :ref => 'various'
+  :git => 'https://github.com/Ericsson/puppet-module-sudo.git',
+  :ref => 'v0.6.3'
 
 mod 'sysklogd',
   :git => 'https://github.com/ghoneycutt/puppet-module-sysklogd.git',
