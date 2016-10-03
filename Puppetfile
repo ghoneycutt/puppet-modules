@@ -8,6 +8,10 @@ mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
   :ref => 'c9c0d640d16be50e059e7ead9c499c795f4839d4'
 
+mod 'bind',
+  :git => 'https://github.com/ghoneycutt/puppet-module-bind.git',
+  :ref => 'v1.0.0'
+
 mod 'autofs',
   :git => 'https://github.com/gusson/puppet-module-autofs',
   :ref => 'v1.4.0'
