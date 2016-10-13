@@ -118,7 +118,7 @@ mod 'ntp',
 # Puppet Approved
 mod 'pam',
   :git => 'https://github.com/ghoneycutt/puppet-module-pam.git',
-  :ref => 'v2.28.0'
+  :ref => 'v2.29.0'
 
 mod 'papertrail',
   :git => 'https://github.com/ghoneycutt/puppet-module-papertrail.git',
@@ -226,3 +226,7 @@ mod 'wget',
 mod 'xinetd',
   :git => 'https://github.com/puppetlabs/puppetlabs-xinetd.git',
   :ref => '1.5.0'
+
+mod 'yum',
+  :git => 'https://github.com/ghoneycutt/puppet-module-yum.git',
+  :ref => 'v0.5.0'
