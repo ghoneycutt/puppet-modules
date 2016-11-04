@@ -202,7 +202,7 @@ mod 'sysklogd',
 
 mod 'timezone',
   :git => 'https://github.com/ghoneycutt/puppet-module-timezone.git',
-  :ref => 'v1.2.0'
+  :ref => 'v1.2.1'
 
 mod 'types',
   :git => 'https://github.com/ghoneycutt/puppet-module-types.git',
