@@ -183,7 +183,7 @@ mod 'ruby',
 
 mod 'selinux',
   :git => 'https://github.com/ghoneycutt/puppet-module-selinux.git',
-  :ref => 'v1.3.1'
+  :ref => 'v1.3.2'
 
 # Puppet Approved
 mod 'ssh',
