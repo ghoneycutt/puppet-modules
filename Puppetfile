@@ -175,9 +175,11 @@ mod 'rsyslog',
   :ref => 'v0.24.2'
 
 # needed for r10k
+# Waiting for a new release that contains this commit (ruby 2.3.1 support).
+# Current release is 0.5.0
 mod 'ruby',
   :git => 'https://github.com/puppetlabs/puppetlabs-ruby.git',
-  :ref => '0.4.0'
+  :ref => '2bbaba4b07eb283eb8afd32ad97e47ddc1575496'
 
 mod 'selinux',
   :git => 'https://github.com/ghoneycutt/puppet-module-selinux.git',
