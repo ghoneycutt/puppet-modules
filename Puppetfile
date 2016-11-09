@@ -35,9 +35,10 @@ mod 'facter',
   :git => 'https://github.com/ghoneycutt/puppet-module-facter.git',
   :ref => 'v3.2.0'
 
+# Using this SHA until a tag after 1.8.1 is released
 mod 'firewall',
   :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
-  :ref => '1.8.1'
+  :ref => '5cc292d32541e0db682116cbfa48bb4e7a61d020'
 
 # needed for r10k
 mod 'gcc',
