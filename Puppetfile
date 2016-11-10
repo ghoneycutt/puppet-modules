@@ -45,10 +45,11 @@ mod 'gcc',
   :git => 'https://github.com/puppetlabs/puppetlabs-gcc.git',
   :ref => '0.3.0'
 
+# Using SHA until a tag after 0.5.0 is released
 # needed for r10k
 mod 'git',
   :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
-  :ref => '0.5.0'
+  :ref => '7e9b9de109730e233811817cefe110cefe6484a6'
 
 # Puppet Approved
 mod 'hosts',
