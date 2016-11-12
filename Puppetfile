@@ -29,7 +29,7 @@ mod 'cron',
 # Puppet Approved
 mod 'dnsclient',
   :git => 'https://github.com/ghoneycutt/puppet-module-dnsclient.git',
-  :ref => 'v3.5.1'
+  :ref => 'v3.5.2'
 
 mod 'facter',
   :git => 'https://github.com/ghoneycutt/puppet-module-facter.git',
