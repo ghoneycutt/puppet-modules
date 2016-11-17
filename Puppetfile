@@ -74,10 +74,9 @@ mod 'localization',
   :ref => 'v1.0.1'
 
 # needed for r10k
-# no tags, so we use the latest commit
 mod 'make',
-  :git => 'https://github.com/Element84/puppet-make.git',
-  :ref => 'abe2fa511c01578d9aa4b9de13c295496c41186c'
+  :git => 'https://github.com/croddy/puppet-make.git',
+  :ref => '1.0.0'
 
 mod 'motd',
   :git => 'https://github.com/Ericsson/puppet-module-motd.git',
