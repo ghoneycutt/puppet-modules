@@ -58,7 +58,7 @@ mod 'hosts',
 
 mod 'htpasswd',
   :git => 'https://github.com/ghoneycutt/puppet-htpasswd.git',
-  :ref => 'v0.2.0'
+  :ref => 'v0.3.0'
 
 mod 'inifile',
   :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
