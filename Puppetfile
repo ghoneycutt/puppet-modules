@@ -155,11 +155,9 @@ mod 'r10k',
   :git => 'https://github.com/acidprime/r10k.git',
   :ref => 'v2.8.4'
 
-# Use ghoneycutt's fork until https://github.com/eoly/puppet-rancid/pull/20 is
-# merged and released.
 mod 'rancid',
-  :git => 'https://github.com/ghoneycutt/puppet-rancid.git',
-  :ref => 'puppet4'
+  :git => 'https://github.com/eoly/puppet-rancid.git',
+  :ref => '0.2.0'
 
 mod 'redhat',
   :git => 'https://github.com/ghoneycutt/puppet-module-redhat.git',
