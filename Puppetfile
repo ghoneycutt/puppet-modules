@@ -80,7 +80,7 @@ mod 'make',
 
 mod 'motd',
   :git => 'https://github.com/Ericsson/puppet-module-motd.git',
-  :ref => 'v1.0.2'
+  :ref => 'v1.0.3'
 
 mod 'mysql',
   :git => 'https://github.com/puppetlabs/puppetlabs-mysql.git',
@@ -96,7 +96,7 @@ mod 'nfs',
 
 mod 'nisclient',
   :git => 'https://github.com/Ericsson/puppet-module-nisclient.git',
-  :ref => 'v1.1.1'
+  :ref => 'v1.1.2'
 
 mod 'nrpe',
   :git => 'https://github.com/ghoneycutt/puppet-module-nrpe.git',
