@@ -2,8 +2,9 @@ task :default => :check
 
 desc 'Check syntax'
 task :check do
-  sh 'ruby -c Puppetfile'
-  sh 'ruby -c Gemfile'
+  puts "\n=== Validating ruby files Rakefile and Gemfile"
+  sh "ruby -c Rakefile"
+  sh "ruby -c Gemfile"
 
   puts "\n=== Validating shell (*.sh) files"
   Dir['**/*.sh'].each do |sh|
