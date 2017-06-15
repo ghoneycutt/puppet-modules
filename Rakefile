@@ -7,6 +7,11 @@ task :check do
   sh 'bash -n update_puppet_modules.sh'
 end
 
+desc 'Check that modules exist'
+task :check_exists do
+  sh 'scripts/check_modules_exist.sh'
+end
+
 desc 'Install pre-commit hook'
 task :precommit do
   sh 'install -C -m 0755 hooks/pre-commit .git/hooks/pre-commit'

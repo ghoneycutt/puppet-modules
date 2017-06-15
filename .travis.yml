@@ -7,7 +7,7 @@ rvm:
 
 sudo: false
 
-script: 'rake check && rake install'
+script: 'rake check && rake install && rake check_exists'
 
 notifications:
   email: false
