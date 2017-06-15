@@ -4,7 +4,11 @@ desc 'Check syntax'
 task :check do
   sh 'ruby -c Puppetfile'
   sh 'ruby -c Gemfile'
-  sh 'bash -n update_puppet_modules.sh'
+
+  puts "\n=== Validating shell (*.sh) files"
+  Dir['**/*.sh'].each do |sh|
+    sh "bash -n #{sh}" unless sh =~ /^modules\//
+  end
 end
 
 desc 'Check that modules exist'
