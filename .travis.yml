@@ -2,12 +2,11 @@
 language: ruby
 
 rvm:
-  - 2.1.0
-  - 2.3.1
+  - 2.1.9
 
 sudo: false
 
-script: 'rake check && rake install'
+script: 'rake check && rake install && rake check_exists'
 
 notifications:
   email: false

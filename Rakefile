@@ -2,9 +2,19 @@ task :default => :check
 
 desc 'Check syntax'
 task :check do
-  sh 'ruby -c Puppetfile'
-  sh 'ruby -c Gemfile'
-  sh 'bash -n update_puppet_modules.sh'
+  puts "\n=== Validating ruby files Rakefile and Gemfile"
+  sh "ruby -c Rakefile"
+  sh "ruby -c Gemfile"
+
+  puts "\n=== Validating shell (*.sh) files"
+  Dir['**/*.sh'].each do |sh|
+    sh "bash -n #{sh}" unless sh =~ /^modules\//
+  end
+end
+
+desc 'Check that modules exist'
+task :check_exists do
+  sh 'scripts/check_modules_exist.sh'
 end
 
 desc 'Install pre-commit hook'
