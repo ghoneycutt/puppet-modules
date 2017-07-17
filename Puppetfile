@@ -33,7 +33,7 @@ mod 'dnsclient',
 
 mod 'facter',
   :git => 'https://github.com/ghoneycutt/puppet-module-facter.git',
-  :ref => 'v3.3.0'
+  :ref => 'v3.3.1'
 
 # Using this SHA until a tag after 1.8.1 is released
 mod 'firewall',
