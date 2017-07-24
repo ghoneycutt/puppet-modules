@@ -205,7 +205,7 @@ mod 'timezone',
 
 mod 'types',
   :git => 'https://github.com/ghoneycutt/puppet-module-types.git',
-  :ref => 'v1.11.1'
+  :ref => 'v1.12.0'
 
 mod 'utils',
   :git => 'https://github.com/ghoneycutt/puppet-module-utils.git',
