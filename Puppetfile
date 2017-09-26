@@ -8,7 +8,7 @@ mod 'apt',
 
 mod 'bind',
   :git => 'https://github.com/ghoneycutt/puppet-module-bind.git',
-  :ref => 'v2.1.0'
+  :ref => 'v2.2.0'
 
 mod 'autofs',
   :git => 'https://github.com/gusson/puppet-module-autofs',
