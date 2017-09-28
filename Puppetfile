@@ -230,4 +230,4 @@ mod 'xinetd',
 
 mod 'yum',
   :git => 'https://github.com/ghoneycutt/puppet-module-yum.git',
-  :ref => 'v1.3.0'
+  :ref => 'v1.4.0'
