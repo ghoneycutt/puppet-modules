@@ -182,6 +182,11 @@ mod 'selinux',
   :git => 'https://github.com/ghoneycutt/puppet-module-selinux.git',
   :ref => 'v1.3.2'
 
+# Collaborator on sssd with sgnl05
+mod 'sssd',
+  :git => 'https://github.com/sgnl05/sgnl05-sssd.git',
+  :ref => '2.2.0'
+
 # Puppet Approved
 mod 'ssh',
   :git => 'https://github.com/ghoneycutt/puppet-module-ssh.git',
