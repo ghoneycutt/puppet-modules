@@ -180,7 +180,7 @@ mod 'ruby',
 
 mod 'selinux',
   :git => 'https://github.com/ghoneycutt/puppet-module-selinux.git',
-  :ref => 'v1.3.2'
+  :ref => 'v2.0.0'
 
 # Collaborator on sssd with sgnl05
 mod 'sssd',
