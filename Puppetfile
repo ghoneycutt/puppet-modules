@@ -190,7 +190,7 @@ mod 'sssd',
 # Puppet Approved
 mod 'ssh',
   :git => 'https://github.com/ghoneycutt/puppet-module-ssh.git',
-  :ref => 'v3.57.0'
+  :ref => 'v3.57.1'
 
 mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
