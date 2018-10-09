@@ -194,7 +194,7 @@ mod 'ssh',
 
 mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
-  :ref => '4.6.0'
+  :ref => '4.25.1'
 
 mod 'sudo',
   :git => 'https://github.com/Ericsson/puppet-module-sudo.git',
