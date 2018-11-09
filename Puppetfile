@@ -117,7 +117,7 @@ mod 'ntp',
 # Puppet Approved
 mod 'pam',
   :git => 'https://github.com/ghoneycutt/puppet-module-pam.git',
-  :ref => 'v2.33.0'
+  :ref => 'v3.0.0'
 
 mod 'papertrail',
   :git => 'https://github.com/ghoneycutt/puppet-module-papertrail.git',
