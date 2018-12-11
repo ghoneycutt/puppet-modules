@@ -161,7 +161,7 @@ mod 'rancid',
 
 mod 'redhat',
   :git => 'https://github.com/ghoneycutt/puppet-module-redhat.git',
-  :ref => 'v1.5.0'
+  :ref => 'v1.6.0'
 
 mod 'rpcbind',
   :git => 'https://github.com/ghoneycutt/puppet-module-rpcbind.git',
