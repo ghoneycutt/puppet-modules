@@ -4,7 +4,7 @@ mod 'apache',
 
 mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
-  :ref => '2.3.0'
+  :ref => '6.2.1'
 
 mod 'bind',
   :git => 'https://github.com/ghoneycutt/puppet-module-bind.git',
@@ -20,7 +20,7 @@ mod 'common',
 
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
-  :ref => '1.2.5'
+  :ref => '5.1.0'
 
 mod 'cron',
   :git => 'https://github.com/Ericsson/puppet-module-cron.git',
@@ -35,10 +35,9 @@ mod 'facter',
   :git => 'https://github.com/ghoneycutt/puppet-module-facter.git',
   :ref => 'v3.4.0'
 
-# Using this SHA until a tag after 1.8.1 is released
 mod 'firewall',
   :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
-  :ref => '5cc292d32541e0db682116cbfa48bb4e7a61d020'
+  :ref => '1.14.0'
 
 # needed for r10k
 mod 'gcc',
@@ -62,7 +61,7 @@ mod 'htpasswd',
 
 mod 'inifile',
   :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
-  :ref => '1.6.0'
+  :ref => '2.4.0'
 
 # Puppet Approved
 mod 'inittab',
@@ -141,7 +140,7 @@ mod 'portage',
 # https://tickets.puppetlabs.com/browse/MODULES-3816
 mod 'postgresql',
   :git => 'https://github.com/puppetlabs/puppet-postgresql.git',
-  :ref => '3.4.2'
+  :ref => '5.11.0'
 
 mod 'puppet',
   :git => 'https://github.com/ghoneycutt/puppet-module-puppet.git',
@@ -149,7 +148,7 @@ mod 'puppet',
 
 mod 'puppetdb',
   :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git',
-  :ref => '3.0.1'
+  :ref => '7.1.0'
 
 mod 'r10k',
   :git => 'https://github.com/acidprime/r10k.git',
@@ -194,7 +193,7 @@ mod 'ssh',
 
 mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
-  :ref => '4.25.1'
+  :ref => '5.1.0'
 
 mod 'sudo',
   :git => 'https://github.com/Ericsson/puppet-module-sudo.git',
@@ -207,6 +206,10 @@ mod 'sysklogd',
 mod 'timezone',
   :git => 'https://github.com/ghoneycutt/puppet-module-timezone.git',
   :ref => 'v1.2.1'
+
+mod 'translate',
+  :git => 'https://github.com/puppetlabs/puppetlabs-translate.git',
+  :ref => '1.2.0'
 
 mod 'types',
   :git => 'https://github.com/ghoneycutt/puppet-module-types.git',
