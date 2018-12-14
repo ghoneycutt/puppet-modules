@@ -70,7 +70,7 @@ mod 'inittab',
 
 mod 'localization',
   :git => 'https://github.com/ghoneycutt/puppet-module-localization.git',
-  :ref => 'v1.2.0'
+  :ref => 'v1.3.0'
 
 # needed for r10k
 mod 'make',
