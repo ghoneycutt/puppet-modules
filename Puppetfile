@@ -12,7 +12,7 @@ mod 'bind',
 
 mod 'autofs',
   :git => 'https://github.com/gusson/puppet-module-autofs',
-  :ref => 'v1.4.0'
+  :ref => 'v1.4.1'
 
 mod 'common',
   :git => 'https://github.com/ghoneycutt/puppet-module-common.git',
