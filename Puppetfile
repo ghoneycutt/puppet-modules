@@ -20,7 +20,7 @@ mod 'common',
 
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
-  :ref => '5.1.0'
+  :ref => '5.2.0'
 
 mod 'cron',
   :git => 'https://github.com/Ericsson/puppet-module-cron.git',
