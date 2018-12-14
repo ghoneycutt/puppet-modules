@@ -75,7 +75,7 @@ mod 'localization',
 # needed for r10k
 mod 'make',
   :git => 'https://github.com/voxpupuli/puppet-make.git',
-  :ref => 'v1.0.1'
+  :ref => 'v2.1.1'
 
 mod 'motd',
   :git => 'https://github.com/Ericsson/puppet-module-motd.git',
