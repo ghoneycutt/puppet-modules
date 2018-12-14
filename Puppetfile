@@ -129,7 +129,7 @@ mod 'passenger',
 # needed for r10k
 mod 'portage',
   :git => 'https://github.com/gentoo/puppet-portage.git',
-  :ref => '2.3.0'
+  :ref => '2.4.5'
 
 # Use 3.4.3 once the tag is created. Waiting on
 # https://tickets.puppetlabs.com/browse/MODULES-3816
