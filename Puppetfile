@@ -1,6 +1,6 @@
 mod 'apache',
-  :git => 'https://github.com/ghoneycutt/puppetlabs-apache.git',
-  :ref => 'manage_firewall_stop_purging_httpd_vdir'
+  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
+  :ref => '3.4.0'
 
 mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
