@@ -79,7 +79,7 @@ mod 'make',
 
 mod 'motd',
   :git => 'https://github.com/Ericsson/puppet-module-motd.git',
-  :ref => 'v1.0.3'
+  :ref => 'v1.0.5'
 
 mod 'mysql',
   :git => 'https://github.com/puppetlabs/puppetlabs-mysql.git',
