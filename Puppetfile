@@ -33,7 +33,7 @@ mod 'dnsclient',
 
 mod 'facter',
   :git => 'https://github.com/ghoneycutt/puppet-module-facter.git',
-  :ref => 'v3.4.0'
+  :ref => 'v3.5.0'
 
 mod 'firewall',
   :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
