@@ -216,7 +216,7 @@ mod 'utils',
 
 mod 'vim',
   :git => 'https://github.com/ghoneycutt/puppet-module-vim.git',
-  :ref => 'v2.12.0'
+  :ref => 'v2.13.0'
 
 # needed for r10k
 mod 'vcsrepo',
