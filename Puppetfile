@@ -196,7 +196,7 @@ mod 'sudo',
 
 mod 'sysklogd',
   :git => 'https://github.com/ghoneycutt/puppet-module-sysklogd.git',
-  :ref => 'v1.1.0'
+  :ref => 'v1.2.0'
 
 mod 'timezone',
   :git => 'https://github.com/ghoneycutt/puppet-module-timezone.git',
