@@ -139,7 +139,7 @@ mod 'postgresql',
 
 mod 'puppet',
   :git => 'https://github.com/ghoneycutt/puppet-module-puppet.git',
-  :ref => 'v3.2.1'
+  :ref => 'v3.3.0'
 
 mod 'puppetdb',
   :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git',
