@@ -143,7 +143,7 @@ mod 'puppet',
 
 mod 'puppetdb',
   :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git',
-  :ref => '7.1.0'
+  :ref => '7.3.0'
 
 mod 'r10k',
   :git => 'https://github.com/acidprime/r10k.git',
@@ -233,4 +233,4 @@ mod 'xinetd',
 
 mod 'yum',
   :git => 'https://github.com/ghoneycutt/puppet-module-yum.git',
-  :ref => 'v2.1.0'
+  :ref => 'v2.2.0'
