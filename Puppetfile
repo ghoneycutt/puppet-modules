@@ -16,7 +16,7 @@ mod 'autofs',
 
 mod 'common',
   :git => 'https://github.com/ghoneycutt/puppet-module-common.git',
-  :ref => 'v1.9.0'
+  :ref => 'v1.10.0'
 
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
